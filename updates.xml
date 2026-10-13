@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Chrome update manifest for self-hosted force-install on MANAGED Chrome.
+  Replace __BASE_URL__ with the public HTTPS folder where you host agent-assist.crx
+  (e.g. https://cuemath-css.github.io/agent-assist). The version MUST match the
+  extension's manifest version; build-crx.sh bumps it for you on each release.
+-->
+<gupdate xmlns="http://www.google.com/update2/response" protocol="2.0">
+  <app appid="jagnikagcnknabngdieopkjcffjmkkih">
+    <updatecheck codebase="https://pranjalgautam-arch.github.io/agent-assist-dist/agent-assist.crx" version="0.29.1" />
+  </app>
+</gupdate>
